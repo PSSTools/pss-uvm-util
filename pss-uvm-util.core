@@ -1,0 +1,19 @@
+CAPI=2:
+
+name: psstools::pss-uvm-util
+
+filesets:
+  pss:
+    files: []
+    file_type: pssSource
+  uvm:
+    files: 
+      - "sv-uvm ? (src/sv/pss_uvm_util.sv)":
+          include_path: "src/sv"
+    file_type: systemVerilogSource
+
+targets:
+  default:
+    filesets:
+      - pss
+      - uvm
