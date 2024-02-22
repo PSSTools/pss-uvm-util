@@ -1,0 +1,9 @@
+package:
+  name: pss-uvm_util
+
+  deps-sets: []
+
+  paths:
+    export:
+      lib-dirs:
+        - src/

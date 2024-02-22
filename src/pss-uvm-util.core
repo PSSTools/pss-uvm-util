@@ -8,8 +8,8 @@ filesets:
     file_type: pssSource
   uvm:
     files: 
-      - "sv-uvm ? (src/sv/pss_uvm_util.sv)":
-          include_path: "src/sv"
+      - "sv-uvm ? (sv/pss_uvm_util.sv)":
+          include_path: "sv"
     file_type: systemVerilogSource
 
 targets:
